@@ -1,4 +1,8 @@
 ---
-
-lucky-word:
-  Irish
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri:  https://github.com/khurramsyed/leanmentors/
+          searchPaths:  leanmentors-config
