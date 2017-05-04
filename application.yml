@@ -9,6 +9,7 @@ spring:
   profiles: subject
 words: I,You,He,She,We,They
 
+info: ce micro-service s'occupe du sujet dans la phrase
 ---
 spring:
   profiles: verb
